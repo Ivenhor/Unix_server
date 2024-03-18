@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cmocka.h": "c",
+        "unix_socket.h": "c"
+    },
+    "editor.formatOnSave": true
+}

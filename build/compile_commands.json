@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/oleksandr/workspace/C_C++/Unix_server/build",
+  "command": "/usr/bin/gcc -g -o CMakeFiles/Unix_socket.dir/unix_socket/unix_socket.c.o -c /home/oleksandr/workspace/C_C++/Unix_server/unix_socket/unix_socket.c",
+  "file": "/home/oleksandr/workspace/C_C++/Unix_server/unix_socket/unix_socket.c"
+},
+{
+  "directory": "/home/oleksandr/workspace/C_C++/Unix_server/build",
+  "command": "/usr/bin/gcc -g -o CMakeFiles/Unix_server.dir/main.c.o -c /home/oleksandr/workspace/C_C++/Unix_server/main.c",
+  "file": "/home/oleksandr/workspace/C_C++/Unix_server/main.c"
+},
+{
+  "directory": "/home/oleksandr/workspace/C_C++/Unix_server/build",
+  "command": "/usr/bin/gcc -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/include -g -o CMakeFiles/unit_tests.dir/test/main.c.o -c /home/oleksandr/workspace/C_C++/Unix_server/test/main.c",
+  "file": "/home/oleksandr/workspace/C_C++/Unix_server/test/main.c"
+},
+{
+  "directory": "/home/oleksandr/workspace/C_C++/Unix_server/build",
+  "command": "/usr/bin/gcc -Dcmocka_EXPORTS -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-build/src -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/src -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-build -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/include -g -fPIC -std=gnu99 -Wpedantic -Wall -Wshadow -Wmissing-prototypes -Wcast-align -Werror=address -Wstrict-prototypes -Werror=strict-prototypes -Wwrite-strings -Werror=write-strings -Werror-implicit-function-declaration -Wpointer-arith -Werror=pointer-arith -Wdeclaration-after-statement -Werror=declaration-after-statement -Wreturn-type -Werror=return-type -Wuninitialized -Werror=uninitialized -Wimplicit-fallthrough -Werror=strict-overflow -Wstrict-overflow=2 -Wno-format-zero-length -Wmissing-field-initializers -Wformat -Wformat-security -Werror=format-security -fno-common -fstack-protector-strong -fstack-clash-protection -DHAVE_CONFIG_H -o _deps/cmocka-build/src/CMakeFiles/cmocka.dir/cmocka.c.o -c /home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/src/cmocka.c",
+  "file": "/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/src/cmocka.c"
+},
+{
+  "directory": "/home/oleksandr/workspace/C_C++/Unix_server/build",
+  "command": "/usr/bin/gcc -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-build/src -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/src -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-build -I/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/include -g -fPIC -std=gnu99 -Wpedantic -Wall -Wshadow -Wmissing-prototypes -Wcast-align -Werror=address -Wstrict-prototypes -Werror=strict-prototypes -Wwrite-strings -Werror=write-strings -Werror-implicit-function-declaration -Wpointer-arith -Werror=pointer-arith -Wdeclaration-after-statement -Werror=declaration-after-statement -Wreturn-type -Werror=return-type -Wuninitialized -Werror=uninitialized -Wimplicit-fallthrough -Werror=strict-overflow -Wstrict-overflow=2 -Wno-format-zero-length -Wmissing-field-initializers -Wformat -Wformat-security -Werror=format-security -fno-common -fstack-protector-strong -fstack-clash-protection -DHAVE_CONFIG_H -o _deps/cmocka-build/src/CMakeFiles/cmocka-static.dir/cmocka.c.o -c /home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/src/cmocka.c",
+  "file": "/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-src/src/cmocka.c"
+}
+]
