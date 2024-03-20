@@ -30,6 +30,9 @@ int main()
             err = process_command(&library);
             if (err != SOCKET_ERR_NONE) {
                 fprintf(stderr, "Ошибка при обработке данных.\n");
+                //break;
+            }
+            if (library.command == COMMAND_EXIT) {
                 break;
             }
 
@@ -45,7 +48,7 @@ int main()
 
             memset(library.buf, 0, sizeof(library.buf));
         }
-
+        memset(library.buf, 0, sizeof(library.buf));
         // Закрытие соединения с клиентом
         close(library.client_fd);
     }

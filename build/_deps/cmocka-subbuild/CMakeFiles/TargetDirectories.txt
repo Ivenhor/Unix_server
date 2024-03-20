@@ -1,3 +1,0 @@
-/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-subbuild/CMakeFiles/cmocka-populate.dir
-/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-subbuild/CMakeFiles/edit_cache.dir
-/home/oleksandr/workspace/C_C++/Unix_server/build/_deps/cmocka-subbuild/CMakeFiles/rebuild_cache.dir

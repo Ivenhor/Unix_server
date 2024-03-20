@@ -1,3 +1,0 @@
-CMockaExample 0 0
-unit_tests 31 0.00451222
----

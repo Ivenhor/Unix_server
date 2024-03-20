@@ -82,6 +82,12 @@ static void test_receive_data_null_pointer(void **state)
     assert_int_equal(result, SOCKET_ERR_NULL_POINTER);
 }
 
+static void test_accept_connection_null_pointer(void **state)
+{
+    socket_error_t result = accept_connection(NULL);
+    assert_int_equal(result, SOCKET_ERR_NULL_POINTER);
+}
+
 static void test_initialize_socket(void **state)
 {
     unix_server_t server;
@@ -102,7 +108,7 @@ int main()
     const struct CMUnitTest tests[] = {
         cmocka_unit_test(test_process_command),        cmocka_unit_test(test_shutdown_server_null_pointer),
         cmocka_unit_test(test_send_data_null_pointer), cmocka_unit_test(test_receive_data_null_pointer),
-        cmocka_unit_test(test_initialize_socket),
+        cmocka_unit_test(test_initialize_socket),      cmocka_unit_test(test_accept_connection_null_pointer),
     };
 
     return cmocka_run_group_tests(tests, NULL, NULL);
