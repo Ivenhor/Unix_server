@@ -101,10 +101,13 @@ socket_error_t shutdown_server(unix_server_t *server)
     // Закрытие сокета сервера
     if (close(server->server_fd) == -1) {
         perror("close");
-        return SOCKET_ERR_NONE;
+        return SOCKET_ERR_CLOSE;
     }
 
-    unlink(server->socket_path); // Удаление файла сокета
+    if (unlink(server->socket_path) == -1) {
+        perror("unlink");
+        return SOCKET_ERR_UNLINK;
+    } // Удаление файла сокета
 
     return SOCKET_ERR_NONE;
 }
