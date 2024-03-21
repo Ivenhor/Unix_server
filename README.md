@@ -1,11 +1,11 @@
-# Unix Client
+# Unix Server
 
-The Unix Client is a simple project demonstrating the basic functionality of Unix sockets. 
-It provides a client application that can communicate with a Unix server using socket connections.
+The Unix Server is a simple project demonstrating the basic functionality of Unix sockets. 
+It provides a server application that can communicate with a [Unix client](https://github.com/Ivenhor/Unix_client) using socket connections.
 
 ## Supported Commands
 
-The client application can handle the following commands:
+The server application can handle the following commands:
 
 - `date`: Requests the current date from the server.
 - `time`: Requests the current time from the server.
